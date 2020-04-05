@@ -1,0 +1,10 @@
+
+.icon {
+    height: 100%;
+    margin-right: 10px;
+    /* background-color: cornflowerblue; */
+}
+
+.icon:hover {
+    opacity: 0.5;
+}

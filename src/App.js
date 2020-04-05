@@ -1,26 +1,44 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
+import Header from './Header';
+// import Skills from './Skills'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      {/* <Skills /> */}
     </div>
   );
 }
+
+
+// to incorporate
+// const skillSet = [
+//   {
+//     label: "JavaScript",
+//     level: null
+//   },
+//   {
+//     label: "React",
+//     level: 8
+//   },
+//   {
+//     label: "Design",
+//     level: 6
+//   },
+//   {
+//     label: "HTML",
+//     level: 9
+//   },
+//   {
+//     label: "Css",
+//     level: 7
+//   },
+//   {
+//     label: "Python"
+//   }
+// ];
 
 export default App;

@@ -1,0 +1,14 @@
+@import url(./__name/header__name.css);
+@import url(./__status/header__status.css);
+@import url(./__photo/header__photo.css);
+@import url(./__social/header__social.css);
+@import url(./__photo-wrapper/header__photo-wrapper.css);
+
+.header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #E9E5DA;
+    color: #2F4858;
+}
