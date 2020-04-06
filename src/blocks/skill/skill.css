@@ -1,0 +1,13 @@
+@import url(./__label/skill__label.css);
+
+.skill {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 0;
+    padding-bottom: 0;
+
+    font-family: Roboto, Georgia, serif;
+    font-weight: normal;
+    font-size: 20px;
+}

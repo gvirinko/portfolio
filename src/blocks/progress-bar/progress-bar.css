@@ -1,0 +1,11 @@
+@import url(./__bar/progress-bar__bar.css);
+
+.progress-bar {
+    box-sizing: border-box;
+    height: 30px;
+    width: 50%;
+    background-color: #42493A;
+    margin-bottom: 20px;
+    border-radius: 1px;
+    padding: 5px;
+  }
