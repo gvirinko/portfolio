@@ -1,28 +1,43 @@
 import React from 'react';
+import {SkillsList, skillSet} from './SkillsList';
 
-const skillSet = [
-  {
-    label: "HTML",
-    level: 5
-  },
-  {
-    label: "Css",
-    level: 5
-  },
-  {
-    label: "JavaScript",
-    level: 3
-  },
-  {
-    label: "React",
-    level: 2
-  },
-  {
-    label: "Python",
-    level: 1
+class Skills extends React.Component {
+    state = {
+      skills: skillSet,
+      showSkills: false,
+    };
+
+    toggleSkills = () => {
+      this.setState(state => ({ showSkills: !state.showSkills }));
+    };
+
+    render() {
+      return (
+        <div className="skills">
+            <h3 className="skills__title"
+                style={{
+                color: this.state.showSkills ? "#2F4858" : "#005B95",
+                cursor: "pointer"
+                }}
+                onClick={this.toggleSkills}
+            >
+            My skills
+            </h3>
+            <h3 className="skills__title" onClick={this.toggleSkills}>⇟</h3>
+
+            {this.state.showSkills && (
+                <SkillsList>
+                    {this.state.skills.map(item => (
+                    <div className="skills__item">
+                        <div key={item.label} className="skill__name">{item.label}</div>
+                        <div className="skill__level">{item.level}</div>
+                    </div>
+                    ))}
+                </SkillsList>
+          )}
+        </div>
+      );
+    }
   }
-];
 
-  const Skills = ({ children }) => <div className="skills">{children}</div>;
-
-export default Skills;
+  export default Skills;

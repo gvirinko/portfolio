@@ -1,0 +1,11 @@
+@import url(./__title/skills__title.css);
+@import url(./__item/skills__item.css);
+
+.skills {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #E9E5DA;
+}

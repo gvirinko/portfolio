@@ -9,6 +9,8 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-color: #E9E5DA;
+    /* margin-bottom: 0; */
+
+    background-color: #B5D491;
     color: #2F4858;
 }
