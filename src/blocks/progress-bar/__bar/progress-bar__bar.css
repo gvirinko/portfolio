@@ -1,0 +1,6 @@
+
+.progress-bar__bar {
+    background: linear-gradient(to right, #B5D491, rgb(206, 216, 194));
+    height: 100%;
+    border-radius: 2px;
+  }

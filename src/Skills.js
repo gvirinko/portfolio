@@ -1,5 +1,6 @@
 import React from 'react';
 import {SkillsList, skillSet} from './SkillsList';
+import ProgressBar from './ProgressBar';
 
 class Skills extends React.Component {
     state = {
@@ -19,22 +20,23 @@ class Skills extends React.Component {
                 color: this.state.showSkills ? "#2F4858" : "#005B95",
                 cursor: "pointer"
                 }}
-                onClick={this.toggleSkills}
-            >
-            My skills
+                onClick={this.toggleSkills}>
+            {this.state.showSkills ? "My skills progress:": "Click to see my skills progress"}
             </h3>
-            <h3 className="skills__title" onClick={this.toggleSkills}>⇟</h3>
+            <div className="skills__wrapper">
+                {this.state.showSkills && (
+                    <SkillsList>
+                        {this.state.skills.map(item => (
+                        <div className="skill" key={item.label}>
+                            <div key={item.label} className="skill__label">{item.label}</div>
+                            <ProgressBar level={item.level}/>
+                        </div>
+                        ))}
+                    </SkillsList>
+                )}
+            </div>
 
-            {this.state.showSkills && (
-                <SkillsList>
-                    {this.state.skills.map(item => (
-                    <div className="skills__item">
-                        <div key={item.label} className="skill__name">{item.label}</div>
-                        <div className="skill__level">{item.level}</div>
-                    </div>
-                    ))}
-                </SkillsList>
-          )}
+
         </div>
       );
     }

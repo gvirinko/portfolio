@@ -6,7 +6,7 @@ export const skillSet = [
     level: 5
   },
   {
-    label: "Css",
+    label: "CSS",
     level: 5
   },
   {
@@ -14,12 +14,16 @@ export const skillSet = [
     level: 3
   },
   {
-    label: "React",
+    label: "ReactJS",
     level: 2
   },
   {
     label: "Python",
     level: 1
+  },
+  {
+    label: "ProcrastinateJS",
+    level: 8
   }
 ];
 
