@@ -3,6 +3,7 @@
 @import url(./blocks/skills/skills.css);
 @import url(./blocks/skill/skill.css);
 @import url(./blocks/progress-bar/progress-bar.css);
+@import url(./blocks/project/project.css);
 
 
 body {
