@@ -1,0 +1,10 @@
+.project__logo {
+    width: 150px;
+    height: 100%;
+    /* margin-left: 200px; */
+    margin-right: 50px;
+    /* margin-top: 50px; */
+    /* margin-bottom: 50px; */
+    border: 1px solid rgb(193, 202, 183);
+    box-shadow: 2px 2px 2px rgb(226, 231, 218);
+}

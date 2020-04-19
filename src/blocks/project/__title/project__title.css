@@ -1,5 +1,9 @@
-
 .project__title {
-    margin-top: 0;
-    /* border: 1px solid green; */
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: 'Roboto Slab', Georgia, serif;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 40px;
 }

@@ -1,9 +1,10 @@
-
 .header__photo-wrapper {
     position: relative;
     background-size: cover;
     margin-top: auto;
     margin-bottom: auto;
+    margin-left: auto;
+    margin-right: 200px;
     /* background-color: rgba(255, 0, 0, 0.25); */
     /* background: linear-gradient(rgba(255, 0, 0, 0.45), rgba(255, 0, 0, 0.45)); */
 }
