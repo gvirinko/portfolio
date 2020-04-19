@@ -1,9 +1,9 @@
-import React from 'react';
-import './App.css';
-import Header from './Header';
-import Skills from './Skills';
-import Projects from './Project';
-
+import React from "react";
+import "./App.css";
+import Header from "./Header";
+import Skills from "./Skills";
+import Projects from "./Project";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -11,6 +11,7 @@ function App() {
       <Header />
       <Skills />
       <Projects />
+      <Footer />
     </div>
   );
 }

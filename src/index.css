@@ -4,6 +4,7 @@
 @import url(./blocks/skill/skill.css);
 @import url(./blocks/progress-bar/progress-bar.css);
 @import url(./blocks/project/project.css);
+@import url(./blocks/footer/footer.css);
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
