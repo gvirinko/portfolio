@@ -8,8 +8,6 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    /* justify-content: space-around; */
-    /* margin-bottom: 0; */
     background-color: #B5D491;
     color: #2F4858;
 }
