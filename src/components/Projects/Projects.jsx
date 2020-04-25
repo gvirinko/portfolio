@@ -1,7 +1,8 @@
 import React from "react";
-import honingLogo from "./images/BONUS.png";
-import newsLogo from "./images/NewsAnalyzer.png";
-import mondrian from "./images/Mondrian.png";
+
+import honingLogo from "../../images/BONUS.png";
+import newsLogo from "../../images/NewsAnalyzer.png";
+import mondrian from "../../images/Mondrian.png";
 
 const projectSet = [
   {
@@ -30,7 +31,7 @@ const projectSet = [
 ];
 
 // This section is in progress
-const Projects = () => {
+export const Projects = () => {
   return projectSet.map((item) => (
     <div className="project" key={item.title}>
       <div className="project__wrapper">
@@ -52,4 +53,4 @@ const Projects = () => {
   ));
 };
 
-export default Projects;
+// export default Projects;
