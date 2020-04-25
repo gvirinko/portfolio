@@ -1,6 +1,5 @@
 @import url(./__title/skills__title.css);
 @import url(./__wrapper/skills__wrapper.css);
-
 .skills {
     position: relative;
     display: flex;
@@ -8,4 +7,5 @@
     padding-top: 40px;
     padding-bottom: 40px;
     background-color: #E9E5DA;
+    text-align: center;
 }

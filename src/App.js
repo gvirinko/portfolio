@@ -1,12 +1,11 @@
 import React from "react";
 
-import "./App.css";
 import Header from "./components/Header";
 import Skills from "./Skills";
 import Projects from "./Project";
-import Footer from "./Footer";
+import Footer from "./components/Footer";
 
-import { headerInfo } from "./content";
+import { headerInfo, footerInfo } from "./content";
 
 function App() {
   return (
@@ -14,7 +13,7 @@ function App() {
       <Header content={headerInfo} />
       <Skills />
       <Projects />
-      <Footer />
+      <Footer content={footerInfo} />
     </div>
   );
 }
