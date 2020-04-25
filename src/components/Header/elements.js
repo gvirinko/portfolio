@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const HeaderComponent = styled.div`
+export const HeaderComponent = styled.section`
   position: relative;
   display: flex;
   flex-direction: row;
