@@ -2,7 +2,7 @@ import React from "react";
 
 import { ProgressBarComponent, ProgressBarBar } from "./elements";
 
-const ProgressBar = (props) => {
+export const ProgressBar = (props) => {
   return (
     <ProgressBarComponent>
       <ProgressBarBar
@@ -12,4 +12,4 @@ const ProgressBar = (props) => {
   );
 };
 
-export default ProgressBar;
+// export default ProgressBar;

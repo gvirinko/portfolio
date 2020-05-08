@@ -1,7 +1,5 @@
 import React from "react";
 
-import { projectSet } from "../../content";
-
 import {
   ProjectsComponent,
   ProjectsWrapper,
@@ -13,13 +11,20 @@ import {
 } from "./elements";
 
 // This section is in progress
-export const Projects = () => {
-  return projectSet.map((item) => (
+export const Projects = ({ content }) => {
+  function sayHello() {
+    // console.log("Hello!");
+  }
+
+  return content.map((item) => (
     <ProjectsComponent key={item.title}>
       <ProjectsWrapper>
         <ProjectLogo src={item.logo} alt="Logo" />
         <ProjectInfoWrapper>
-          <ProjectButton>
+          <ProjectButton
+            onclick={sayHello()}
+            // value="Go to Google"
+          >
             Website
             {/* <a href={item.link}>Website</a> */}
           </ProjectButton>

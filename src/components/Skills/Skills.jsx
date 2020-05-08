@@ -8,15 +8,18 @@ import {
   SkillLabel,
 } from "./elements";
 
-import { skillSet } from "../../content";
-import { SkillsList } from "../SkillsList/SkillsList";
-import ProgressBar from "../ProgressBar/ProgressBar";
+// import { skillSet } from "../../content";
+import { SkillsList } from "../SkillsList";
+import { ProgressBar } from "../ProgressBar";
 
 export class Skills extends React.Component {
-  state = {
-    skills: skillSet,
-    showSkills: false,
-  };
+  constructor({ content }) {
+    super({ content });
+    this.state = {
+      skills: content,
+      showSkills: false,
+    };
+  }
 
   toggleSkills = () => {
     this.setState((state) => ({ showSkills: !state.showSkills }));

@@ -22,6 +22,7 @@ export const ProjectsWrapper = styled.div`
 export const ProjectLogo = styled.img`
   width: 150px;
   height: 100%;
+  border-radius: 5%;
   margin-right: 50px;
   border: 1px solid rgb(193, 202, 183);
   box-shadow: 2px 2px 2px rgb(226, 231, 218);
@@ -35,8 +36,12 @@ export const ProjectInfoWrapper = styled.div`
 `;
 
 export const ProjectButton = styled.button`
+  &:hover {
+    opacity: 0.7;
+  }
   background-color: #42493a;
   border: none;
+  border-radius: 5%;
   width: 120px;
   color: #f5fced;
   padding: 15px 32px;

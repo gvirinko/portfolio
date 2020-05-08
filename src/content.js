@@ -8,10 +8,10 @@ export const headerInfo = {
 };
 
 export const footerInfo = {
-  year: "2019",
+  year: "2020",
 };
 
-export const skillSet = [
+export const skillsList = [
   {
     label: "HTML",
     level: 5,
@@ -38,7 +38,7 @@ export const skillSet = [
   },
 ];
 
-export const projectSet = [
+export const projectsList = [
   {
     title: "Honing",
     logo: honingLogo,
