@@ -4,6 +4,7 @@ export const HeaderComponent = styled.section`
   position: relative;
   display: flex;
   flex-direction: row;
+  // background-color: black;
   background-color: #b5d491;
   color: #2f4858;
 `;
@@ -39,6 +40,7 @@ export const HeaderSocial = styled.div`
 export const Icon = styled.img`
   height: 100%;
   margin-right: 10px;
+  // filter: invert(100%);
 `;
 
 export const HeaderPhotoWrapper = styled.div`
