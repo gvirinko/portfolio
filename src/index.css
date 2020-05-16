@@ -1,8 +1,7 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  /* text-decoration: none; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -15,6 +14,12 @@ body {
   box-sizing: border-box;
   border: 1px solid red;
 } */
+
+.active-link {
+  /* border-bottom: 3px solid #29b6f6; */
+  /* transition: border .5s ease-in-out; */
+  /* background-color: blueviolet; */
+}
 
 @font-face {
   src: url(./fonts/roboto-regular-webfont.woff) format("woff");

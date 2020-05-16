@@ -2,17 +2,28 @@ import styled from "styled-components";
 
 export const ProjectsComponent = styled.section`
   position: relative;
-  display: flex;
-  flex-direction: row;
+  // display: flex;
+  // flex-direction: row;
   border: 1px dotted #6a9f34;
   border-bottom: none;
-  background-color: rgb(218, 217, 188);
+  background-color: #f6f1df;
   color: #2f4858;
+`;
+
+export const ProjectHeader = styled.h2`
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  font-family: "Roboto Slab", Georgia, serif;
+  font-weight: normal;
+  font-size: 24px;
 `;
 
 export const ProjectsWrapper = styled.div`
   position: relative;
   display: flex;
+  flex-direction: row;
+
   margin-left: 200px;
   margin-right: 200px;
   margin-top: 50px;

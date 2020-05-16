@@ -1,9 +1,11 @@
 import React from "react";
-import { ThemeProvider, createGlobalStyle } from "styled-components";
-import style from "styled-theming";
+// import { ThemeProvider, createGlobalStyle } from "styled-components";
+// import style from "styled-theming";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Header from "./components/Header";
-import DarkMode from "./components/DarkMode";
+import NavBar from "./components/NavBar";
+// import DarkMode from "./components/DarkMode";
 // import Commits from "./components/Commits";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
@@ -40,17 +42,29 @@ import { headerInfo, footerInfo, skillsList, projectsList } from "./content";
 
 function App() {
   return (
-    // <ThemeProvider theme={{ mode: "light" }}>
-    <div className="App">
-      {/* <GlobalStyle /> */}
-      {/* <DarkMode /> */}
-      <Header content={headerInfo} />
-      {/* <Commits /> */}
-      <Skills content={skillsList} />
-      <Projects content={projectsList} />
-      <Footer content={footerInfo} />
-    </div>
-    // </ThemeProvider>
+    <Router>
+      {/* <ThemeProvider theme={{ mode: "light" }}> */}
+      <div className="App">
+        {/* <GlobalStyle /> */}
+        {/* <DarkMode /> */}
+        <Header content={headerInfo} />
+        <NavBar />
+        <main>
+          <Switch>
+            <Route exact path="/">
+              {/* <Commits /> */}
+              <Skills content={skillsList} />
+              <Projects content={projectsList} />
+            </Route>
+            <Route path="/resume">
+              <div>My resume in PDF</div>
+            </Route>
+          </Switch>
+        </main>
+        <Footer content={footerInfo} />
+      </div>
+      {/* </ThemeProvider> */}
+    </Router>
   );
 }
 

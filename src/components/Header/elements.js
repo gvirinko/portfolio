@@ -4,7 +4,6 @@ export const HeaderComponent = styled.section`
   position: relative;
   display: flex;
   flex-direction: row;
-  // background-color: black;
   background-color: #b5d491;
   color: #2f4858;
 `;
