@@ -1,6 +1,7 @@
 import honingLogo from "./images/BONUS.png";
 import newsLogo from "./images/NewsAnalyzer.png";
 import mondrian from "./images/Mondrian.png";
+import irynaGnativ from "./images/IMG_6501.jpeg";
 
 export const headerInfo = {
   name: "Iryna Gnativ",
@@ -40,12 +41,11 @@ export const skillsList = [
 
 export const projectsList = [
   {
-    title: "Honing",
-    logo: honingLogo,
-    link: "https://honing.pl/",
-    address: "honing.pl",
-    github: "https://github.com/honingpl/honingpl.github.io",
-    description: "A landing page for my parents' beekeeping business",
+    title: "{This Page}",
+    logo: irynaGnativ,
+    link: "",
+    github: "https://github.com/gvirinko/portfolio",
+    description: "This is my training project to practice ReactJS",
   },
   {
     title: "News Analyzer",
@@ -55,11 +55,19 @@ export const projectsList = [
     description: "Finds and analyzes news on the given search word",
   },
   {
+    title: "Honing",
+    logo: honingLogo,
+    link: "https://honing.pl/",
+    address: "honing.pl",
+    github: "https://github.com/honingpl/honingpl.github.io",
+    description: "A landing page for my parents' beekeeping business",
+  },
+  {
     title: "Mondrian",
     logo: mondrian,
-    link: "url",
+    link: "https://gvirinko.github.io/mondrian/",
     github: "https://github.com/gvirinko/mondrian",
     description:
-      'A picture of Piet Mondrian “Composition With Red, Yellow, And Blue", “drawn” solely with CSS-Flexbox',
+      'A picture of Piet Mondrian “Composition With Red, Yellow, And Blue", “drawn” solely with CSS - Flexbox, just for fun',
   },
 ];

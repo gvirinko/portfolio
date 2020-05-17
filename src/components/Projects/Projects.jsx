@@ -2,7 +2,7 @@ import React from "react";
 
 import {
   ProjectsComponent,
-  ProjectHeader,
+  // ProjectHeader,
   ProjectsWrapper,
   ProjectLogo,
   ProjectInfoWrapper,
@@ -13,30 +13,32 @@ import {
 
 // This section is in progress
 export const Projects = ({ content }) => {
-  function sayHello() {
-    // console.log("Hello!");
-  }
+  // function sayHello() {
+  //   console.log("Hello!");
+  // }
 
   return (
     <ProjectsComponent>
-      <ProjectHeader>My Projects</ProjectHeader>
-      {content.map((item) => (
-        <ProjectsWrapper key={item.title}>
-          <ProjectLogo src={item.logo} alt="Logo" />
+      {/* <ProjectHeader>My Projects:</ProjectHeader> */}
+      {content.map((project) => (
+        <ProjectsWrapper key={project.title}>
+          <ProjectLogo src={project.logo} alt="Logo" />
           <ProjectInfoWrapper>
-            <ProjectButton
-              onclick={sayHello()}
-              // value="Go to Google"
-            >
-              Website
-              {/* <a href={item.link}>Website</a> */}
+            <ProjectButton onClick={() => window.open(project.github)}>
+              GitHub
             </ProjectButton>
-            <ProjectButton>GitHub</ProjectButton>
-            {/* <a href={item.github}>GitHub</a> */}
+
+            {project.link ? (
+              <ProjectButton onClick={() => window.open(project.link)}>
+                Website
+              </ProjectButton>
+            ) : (
+              ""
+            )}
           </ProjectInfoWrapper>
           <div>
-            <ProjectTitle>{item.title}</ProjectTitle>
-            <ProjectDescription>{item.description}</ProjectDescription>
+            <ProjectTitle>{project.title}</ProjectTitle>
+            <ProjectDescription>{project.description}</ProjectDescription>
           </div>
         </ProjectsWrapper>
       ))}

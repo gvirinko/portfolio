@@ -2,10 +2,8 @@ import styled from "styled-components";
 
 export const ProjectsComponent = styled.section`
   position: relative;
-  // display: flex;
-  // flex-direction: row;
-  border: 1px dotted #6a9f34;
   border-bottom: none;
+  padding-bottom: 50px;
   background-color: #f6f1df;
   color: #2f4858;
 `;
@@ -13,27 +11,26 @@ export const ProjectsComponent = styled.section`
 export const ProjectHeader = styled.h2`
   margin-top: 0;
   margin-bottom: 0;
+  padding-top: 50px;
   text-align: center;
   font-family: "Roboto Slab", Georgia, serif;
-  font-weight: normal;
-  font-size: 24px;
+  font-size: 36px;
 `;
 
 export const ProjectsWrapper = styled.div`
   position: relative;
   display: flex;
   flex-direction: row;
-
+  padding-top: 50px;
   margin-left: 200px;
   margin-right: 200px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 0px;
 `;
 
 export const ProjectLogo = styled.img`
   width: 150px;
   height: 100%;
-  border-radius: 5%;
+  border-radius: 2%;
   margin-right: 50px;
   border: 1px solid rgb(193, 202, 183);
   box-shadow: 2px 2px 2px rgb(226, 231, 218);

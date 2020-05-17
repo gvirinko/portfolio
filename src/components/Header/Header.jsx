@@ -4,7 +4,6 @@ import gitHubLogo from "../../images/GitHub-Mark-120px-plus.png";
 import linkedinLogo from "../../images/LI-In-Bug.png";
 import instagramLogo from "../../images/glyph-logo_May2016.png";
 import emailLogo from "../../images/email-logo-png-1121.png";
-import irynaGnativ from "../../images/IMG_6501.jpeg";
 
 import {
   HeaderComponent,
@@ -13,8 +12,8 @@ import {
   HeaderStatus,
   HeaderSocial,
   Icon,
-  HeaderPhotoWrapper,
-  HeaderPhoto,
+  // HeaderPhotoWrapper,
+  // HeaderPhoto,
 } from "./elements";
 
 export const Header = ({ content }) => {
@@ -53,9 +52,9 @@ export const Header = ({ content }) => {
           </a>
         </HeaderSocial>
       </HeaderTextWrapper>
-      <HeaderPhotoWrapper>
-        <HeaderPhoto alt="Iryna Gnativ" src={irynaGnativ} />
-      </HeaderPhotoWrapper>
+      {/* <HeaderPhotoWrapper> */}
+      {/* <HeaderPhoto alt="Iryna Gnativ" src={irynaGnativ} /> */}
+      {/* </HeaderPhotoWrapper> */}
     </HeaderComponent>
   );
 };

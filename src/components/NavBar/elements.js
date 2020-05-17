@@ -4,7 +4,6 @@ import { NavLink } from "react-router-dom";
 export const NavComponent = styled.section`
   position: relative;
   background-color: #b5d491;
-  // color: #2f4858;
   color: light-grey;
 `;
 
@@ -16,13 +15,10 @@ export const NavWrapper = styled.div`
 `;
 
 export const NavItem = styled.div`
-  &:hover {
-    opacity: 0.9;
-  }
   margin: auto;
-  padding: 20px;
+  padding: 10px;
   background-color: #f6f1df;
-  border: none;
+  border-right: 1px dotted #b5d491;
 
   font-family: "Roboto Slab", Georgia, serif;
   font-weight: normal;
@@ -30,6 +26,9 @@ export const NavItem = styled.div`
 `;
 
 export const StyledNavLink = styled(NavLink)`
+  &:hover {
+    opacity: 0.9;
+  }
   text-decoration: none;
   opacity: 0.8;
   color: grey;

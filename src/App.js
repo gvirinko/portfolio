@@ -53,8 +53,8 @@ function App() {
           <Switch>
             <Route exact path="/">
               {/* <Commits /> */}
-              <Skills content={skillsList} />
               <Projects content={projectsList} />
+              <Skills content={skillsList} />
             </Route>
             <Route path="/resume">
               <div>My resume in PDF</div>

@@ -37,7 +37,7 @@ export class Skills extends React.Component {
         >
           {this.state.showSkills
             ? "My skills progress:"
-            : "Click to see my skills progress"}
+            : "Click here to see my skills progress"}
         </SkillsTitle>
         <SkillsWrapper>
           {this.state.showSkills && (

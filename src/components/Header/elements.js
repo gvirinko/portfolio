@@ -16,15 +16,16 @@ export const HeaderTextWrapper = styled.div`
 `;
 
 export const HeaderName = styled.h1`
-  margin-top: 80px;
+  margin-top: 50px;
+  margin-bottom: 0;
   font-family: "Roboto Slab", Georgia, serif;
   font-weight: normal;
   font-size: 60px;
-  line-height: 40px;
+  // line-height: 40px;
 `;
 
 export const HeaderStatus = styled.h2`
-  margin-top: 20px;
+  margin-top: 0;
   font-family: "Roboto Slab", Georgia, serif;
   font-weight: normal;
   font-size: 24px;
@@ -33,7 +34,7 @@ export const HeaderStatus = styled.h2`
 
 export const HeaderSocial = styled.div`
   height: 50px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 `;
 
 export const Icon = styled.img`
@@ -52,6 +53,7 @@ export const HeaderPhotoWrapper = styled.div`
 `;
 
 export const HeaderPhoto = styled.img`
-  width: 180px;
+  width: 200px;
   box-shadow: 5px 2px 5px grey;
+  border-radius: 50%;
 `;

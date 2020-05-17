@@ -15,12 +15,6 @@ body {
   border: 1px solid red;
 } */
 
-.active-link {
-  /* border-bottom: 3px solid #29b6f6; */
-  /* transition: border .5s ease-in-out; */
-  /* background-color: blueviolet; */
-}
-
 @font-face {
   src: url(./fonts/roboto-regular-webfont.woff) format("woff");
   font-family: "Roboto";
