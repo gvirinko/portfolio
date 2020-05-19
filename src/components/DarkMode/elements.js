@@ -3,9 +3,6 @@ import styled from "styled-components";
 
 export const DarkModeComponent = styled.section`
   position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   background-color: #b5d491;
 `;
 
@@ -14,10 +11,11 @@ export const DarkModeButton = styled.button`
     opacity: 0.7;
   }
   margin-top: 10px;
+  margin-left: 10px;
   border: none;
   border-radius: 5%;
   width: 140px;
-  background-color: #42493a;
+  background-color: #005b48;
   color: #f5fced;
   padding: 5px;
   text-align: center;

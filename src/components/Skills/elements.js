@@ -19,7 +19,7 @@ export const SkillsTitle = styled.h3`
 `;
 
 export const SkillsWrapper = styled.div`
-  width: 30%;
+  width: 40%;
   margin-left: auto;
   margin-right: auto;
   font-family: Roboto, Georgia, serif;

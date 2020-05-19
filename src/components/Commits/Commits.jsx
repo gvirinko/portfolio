@@ -10,7 +10,7 @@ import {
   RepoName,
   CommitDate,
   CommitMessage,
-  MoreButton,
+  // MoreButton,
 } from "./elements";
 
 const GIT_API = "https://api.github.com/users/gvirinko/events";
@@ -22,7 +22,8 @@ export const Commits = () => {
     async function fetchData() {
       const response = await fetch(GIT_API);
       const data = await response.json();
-      setEvents(data);
+      //Why 15??
+      setEvents(data.slice(0, 15));
     }
     fetchData();
   }, []);
@@ -35,7 +36,7 @@ export const Commits = () => {
 
   return (
     <CommitsComponent>
-      <CommitsTitle>My Commits on GitHub</CommitsTitle>
+      <CommitsTitle>My Latest Commits on GitHub</CommitsTitle>
       <CommitsHeader>
         <CommitDate>Date</CommitDate>
         <RepoName>Repository</RepoName>

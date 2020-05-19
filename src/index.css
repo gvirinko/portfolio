@@ -15,6 +15,16 @@ body {
   border: 1px solid red;
 } */
 
+.dark-mode {
+  background-color: black;
+  border-bottom: 2px solid red;
+}
+
+.light-mode {
+  background-color: coral;
+  border-bottom: 10px solid green;
+}
+
 @font-face {
   src: url(./fonts/roboto-regular-webfont.woff) format("woff");
   font-family: "Roboto";
