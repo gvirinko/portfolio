@@ -11,15 +11,9 @@ import {
   ProjectDescription,
 } from "./elements";
 
-// This section is in progress
 export const Projects = ({ content }) => {
-  // function sayHello() {
-  //   console.log("Hello!");
-  // }
-
   return (
     <ProjectsComponent>
-      {/* <ProjectHeader>My Projects:</ProjectHeader> */}
       {content.map((project) => (
         <ProjectsWrapper key={project.title}>
           <ProjectLogo src={project.logo} alt="Logo" />

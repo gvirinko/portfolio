@@ -42,18 +42,3 @@ export const Icon = styled.img`
   margin-right: 10px;
   // filter: invert(100%);
 `;
-
-export const HeaderPhotoWrapper = styled.div`
-  position: relative;
-  background-size: cover;
-  margin-top: auto;
-  margin-bottom: auto;
-  margin-left: auto;
-  margin-right: 200px;
-`;
-
-export const HeaderPhoto = styled.img`
-  width: 200px;
-  box-shadow: 5px 2px 5px grey;
-  border-radius: 50%;
-`;

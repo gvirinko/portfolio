@@ -22,7 +22,7 @@ export const Commits = () => {
     async function fetchData() {
       const response = await fetch(GIT_API);
       const data = await response.json();
-      //Why 15??
+      //Why 15?? hm, I'll think about it.
       setEvents(data.slice(0, 15));
     }
     fetchData();

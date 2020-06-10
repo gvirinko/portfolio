@@ -6,7 +6,7 @@ export const SkillsComponent = styled.section`
   flex-direction: column;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #ded5b0;
+  background-color: #f6f1df;
   text-align: center;
 `;
 

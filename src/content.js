@@ -15,18 +15,22 @@ export const footerInfo = {
 export const skillsList = [
   {
     label: "HTML",
-    level: 5,
+    level: 7,
   },
   {
     label: "CSS",
-    level: 5,
+    level: 7,
   },
   {
     label: "JavaScript",
-    level: 3,
+    level: 5,
   },
   {
     label: "ReactJS",
+    level: 5,
+  },
+  {
+    label: "Redux",
     level: 2,
   },
   {

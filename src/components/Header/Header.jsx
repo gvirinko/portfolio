@@ -12,8 +12,6 @@ import {
   HeaderStatus,
   HeaderSocial,
   Icon,
-  // HeaderPhotoWrapper,
-  // HeaderPhoto,
 } from "./elements";
 
 export const Header = ({ content }) => {
@@ -52,9 +50,6 @@ export const Header = ({ content }) => {
           </a>
         </HeaderSocial>
       </HeaderTextWrapper>
-      {/* <HeaderPhotoWrapper> */}
-      {/* <HeaderPhoto alt="Iryna Gnativ" src={irynaGnativ} /> */}
-      {/* </HeaderPhotoWrapper> */}
     </HeaderComponent>
   );
 };

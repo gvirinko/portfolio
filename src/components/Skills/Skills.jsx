@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 import {
   SkillsComponent,
@@ -8,50 +8,41 @@ import {
   SkillLabel,
 } from "./elements";
 
-// import { skillSet } from "../../content";
 import { SkillsList } from "../SkillsList";
 import { ProgressBar } from "../ProgressBar";
 
-export class Skills extends React.Component {
-  constructor({ content }) {
-    super({ content });
-    this.state = {
-      skills: content,
-      showSkills: false,
-    };
-  }
-
-  toggleSkills = () => {
-    this.setState((state) => ({ showSkills: !state.showSkills }));
+export const Skills = ({ content }) => {
+  const skills = content;
+  const [showSkills, setShowSkills] = useState(false);
+  const toggleSkills = () => {
+    setShowSkills(!showSkills);
   };
 
-  render() {
-    return (
-      <SkillsComponent>
-        <SkillsTitle
-          style={{
-            color: this.state.showSkills ? "#2F4858" : "#005B95",
-            cursor: "pointer",
-          }}
-          onClick={this.toggleSkills}
-        >
-          {this.state.showSkills
-            ? "My skills progress:"
-            : "Click here to see my skills progress"}
-        </SkillsTitle>
-        <SkillsWrapper>
-          {this.state.showSkills && (
-            <SkillsList>
-              {this.state.skills.map((item) => (
-                <Skill key={item.label}>
-                  <SkillLabel key={item.label}>{item.label}</SkillLabel>
-                  <ProgressBar level={item.level} />
-                </Skill>
-              ))}
-            </SkillsList>
-          )}
-        </SkillsWrapper>
-      </SkillsComponent>
-    );
-  }
-}
+  return (
+    <SkillsComponent>
+      <SkillsTitle
+        style={{
+          color: showSkills ? "#2F4858" : "#005B95",
+          cursor: "pointer",
+        }}
+        onClick={toggleSkills}
+      >
+        {showSkills
+          ? "My skills progress:"
+          : "Click here to see my skills progress"}
+      </SkillsTitle>
+      <SkillsWrapper>
+        {showSkills && (
+          <SkillsList>
+            {skills.map((item) => (
+              <Skill key={item.label}>
+                <SkillLabel key={item.label}>{item.label}</SkillLabel>
+                <ProgressBar level={item.level} />
+              </Skill>
+            ))}
+          </SkillsList>
+        )}
+      </SkillsWrapper>
+    </SkillsComponent>
+  );
+};
