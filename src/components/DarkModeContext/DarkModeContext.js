@@ -4,7 +4,6 @@ export const DarkModeContext = React.createContext({ isDarkModeOn: false });
 
 export const DarkModeContextProvider = ({ children }) => {
   const [isDarkModeOn, setIsDarkModeOn] = React.useState(false);
-  console.log("mooooo");
 
   const toggleDarkMode = () => {
     setIsDarkModeOn(!isDarkModeOn);

@@ -12,6 +12,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import DarkModeContext from "./components/DarkModeContext";
+import Resume from "./components/Resume";
 
 import { headerInfo, footerInfo, skillsList, projectsList } from "./content";
 
@@ -30,17 +31,22 @@ function App() {
         <Header
           content={headerInfo}
           className={isDarkModeOn ? "dark-mode" : "light-mode"}
+          style={{ color: "yellow" }}
         />
         <NavBar />
         <main>
           <Switch>
             <Route exact path="/">
               <Projects content={projectsList} />
-              <Skills content={skillsList} />
-              <Commits />
             </Route>
             <Route path="/resume">
-              <div>My resume in PDF</div>
+              <Resume />
+            </Route>
+            <Route path="/skills">
+              <Skills content={skillsList} />
+            </Route>
+            <Route path="/commits">
+              <Commits />
             </Route>
           </Switch>
         </main>

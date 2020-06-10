@@ -33,3 +33,10 @@ export const StyledNavLink = styled(NavLink)`
   opacity: 0.8;
   color: grey;
 `;
+
+export const ActiveStyle = {
+  color: "#2f4858",
+  opacity: "1",
+  fontWeight: "bold",
+  cursor: "default",
+};

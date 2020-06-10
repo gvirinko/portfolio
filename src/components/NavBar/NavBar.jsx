@@ -1,33 +1,28 @@
 import React from "react";
 
-import { NavComponent, NavWrapper, NavItem, StyledNavLink } from "./elements";
+import {
+  NavComponent,
+  NavWrapper,
+  NavItem,
+  StyledNavLink,
+  ActiveStyle,
+} from "./elements";
 
 export const NavBar = () => {
   return (
     <NavComponent>
       <NavWrapper>
-        <StyledNavLink
-          to="/"
-          exact
-          activeStyle={{
-            color: "#2f4858",
-            opacity: "1",
-            fontWeight: "bold",
-            cursor: "default",
-          }}
-        >
-          <NavItem>Portfolio</NavItem>
+        <StyledNavLink to="/" exact activeStyle={ActiveStyle}>
+          <NavItem>Projects</NavItem>
         </StyledNavLink>
-        <StyledNavLink
-          to="/resume"
-          activeStyle={{
-            color: "#2f4858",
-            opacity: "1",
-            fontWeight: "bold",
-            cursor: "default",
-          }}
-        >
+        <StyledNavLink to="/resume" activeStyle={ActiveStyle}>
           <NavItem>Resume</NavItem>
+        </StyledNavLink>
+        <StyledNavLink to="/skills" activeStyle={ActiveStyle}>
+          <NavItem>Skills</NavItem>
+        </StyledNavLink>
+        <StyledNavLink to="/commits" activeStyle={ActiveStyle}>
+          <NavItem>Commits</NavItem>
         </StyledNavLink>
       </NavWrapper>
     </NavComponent>
