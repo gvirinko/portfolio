@@ -10,4 +10,7 @@ export const FooterComponent = styled.section`
   font-weight: normal;
   font-size: 16px;
   line-height: 18px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 `;

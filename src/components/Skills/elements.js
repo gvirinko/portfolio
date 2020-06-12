@@ -8,6 +8,8 @@ export const SkillsComponent = styled.section`
   padding-bottom: 40px;
   background-color: #f6f1df;
   text-align: center;
+
+  // min-height: 100vh;
 `;
 
 export const SkillsTitle = styled.h3`
