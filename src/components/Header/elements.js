@@ -4,8 +4,8 @@ export const HeaderComponent = styled.section`
   position: relative;
   display: flex;
   flex-direction: row;
-  // background-color: #b5d491;
-  color: #2f4858;
+  background-color: ${({ theme }) => theme.headerFooterBg};
+  color: ${({ theme }) => theme.headerFooterText};
 `;
 
 export const HeaderTextWrapper = styled.div`
@@ -21,7 +21,6 @@ export const HeaderName = styled.h1`
   font-family: "Roboto Slab", Georgia, serif;
   font-weight: normal;
   font-size: 60px;
-  // line-height: 40px;
 `;
 
 export const HeaderStatus = styled.h2`
@@ -40,5 +39,5 @@ export const HeaderSocial = styled.div`
 export const Icon = styled.img`
   height: 100%;
   margin-right: 10px;
-  // filter: invert(100%);
+  filter: ${({ theme }) => theme.filter};
 `;

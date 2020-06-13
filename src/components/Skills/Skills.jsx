@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
+import { ThemeContext } from "styled-components";
 
 import {
   SkillsComponent,
@@ -17,12 +18,14 @@ export const Skills = ({ content }) => {
   const toggleSkills = () => {
     setShowSkills(!showSkills);
   };
-
+  const themeContext = useContext(ThemeContext);
+  console.log(themeContext.showList);
   return (
     <SkillsComponent>
       <SkillsTitle
         style={{
-          color: showSkills ? "#2F4858" : "#005B95",
+          // color: showSkills ? "#2F4858" : "#005B95",
+          color: themeContext.showList,
           cursor: "pointer",
         }}
         onClick={toggleSkills}

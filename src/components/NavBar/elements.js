@@ -3,8 +3,10 @@ import { NavLink } from "react-router-dom";
 
 export const NavComponent = styled.section`
   position: relative;
-  background-color: #b5d491;
-  color: light-grey;
+  // background-color: #b5d491;
+  // color: light-grey;
+  background-color: ${({ theme }) => theme.headerFooterBg};
+  // color: ${({ theme }) => theme.spaceText};
 `;
 
 export const NavWrapper = styled.div`
@@ -17,7 +19,7 @@ export const NavWrapper = styled.div`
 export const NavItem = styled.div`
   margin: auto;
   padding: 10px;
-  background-color: #f6f1df;
+  background-color: ${({ theme }) => theme.spaceBg};
   border-right: 1px dotted #b5d491;
 
   font-family: "Roboto Slab", Georgia, serif;
@@ -30,13 +32,13 @@ export const StyledNavLink = styled(NavLink)`
     opacity: 0.9;
   }
   text-decoration: none;
-  opacity: 0.8;
+  opacity: 0.7;
   color: grey;
 `;
 
-export const ActiveStyle = {
-  color: "#2f4858",
+export const ActiveStyle = (headerFooterText) => ({
+  color: headerFooterText,
   opacity: "1",
   fontWeight: "bold",
   cursor: "default",
-};
+});

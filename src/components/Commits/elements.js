@@ -12,17 +12,18 @@ export const CommitsHeader = styled.span`
 export const CommitsComponent = styled.section`
   position: relative;
   padding-bottom: 20px;
-  background-color: #f6f1df;
-  color: #2f4858;
+  background-color: ${({ theme }) => theme.spaceBg};
+  color: ${({ theme }) => theme.spaceText};
 `;
 
 export const CommitsTitle = styled.h2`
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 20px;
+  padding-top: 50px;
   padding-bottom: 20px;
   text-align: center;
-  color: #005b95;
+  // color: #005b95;
+  color: ${({ theme }) => theme.spaceText};
 `;
 
 export const Commit = styled.div`

@@ -6,10 +6,8 @@ export const SkillsComponent = styled.section`
   flex-direction: column;
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #f6f1df;
+  background-color: ${({ theme }) => theme.spaceBg};
   text-align: center;
-
-  // min-height: 100vh;
 `;
 
 export const SkillsTitle = styled.h3`
@@ -18,6 +16,7 @@ export const SkillsTitle = styled.h3`
   font-family: "Roboto Slab", Georgia, serif;
   font-weight: normal;
   font-size: 24px;
+  // color: ${({ theme }) => theme.spaceText};
 `;
 
 export const SkillsWrapper = styled.div`
@@ -45,4 +44,5 @@ export const Skill = styled.div`
 
 export const SkillLabel = styled.div`
   margin-right: 20px;
+  color: ${({ theme }) => theme.spaceText};
 `;
