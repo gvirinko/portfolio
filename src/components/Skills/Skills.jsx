@@ -24,7 +24,6 @@ export const Skills = ({ content }) => {
     <SkillsComponent>
       <SkillsTitle
         style={{
-          // color: showSkills ? "#2F4858" : "#005B95",
           color: themeContext.showList,
           cursor: "pointer",
         }}

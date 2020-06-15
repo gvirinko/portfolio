@@ -2,12 +2,11 @@ import styled from "styled-components";
 
 export const SkillsComponent = styled.section`
   position: relative;
-  display: flex;
-  flex-direction: column;
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: ${({ theme }) => theme.spaceBg};
   text-align: center;
+  flex: 1;
 `;
 
 export const SkillsTitle = styled.h3`
@@ -16,7 +15,6 @@ export const SkillsTitle = styled.h3`
   font-family: "Roboto Slab", Georgia, serif;
   font-weight: normal;
   font-size: 24px;
-  // color: ${({ theme }) => theme.spaceText};
 `;
 
 export const SkillsWrapper = styled.div`

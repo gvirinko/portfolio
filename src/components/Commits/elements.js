@@ -14,6 +14,7 @@ export const CommitsComponent = styled.section`
   padding-bottom: 20px;
   background-color: ${({ theme }) => theme.spaceBg};
   color: ${({ theme }) => theme.spaceText};
+  flex: 1;
 `;
 
 export const CommitsTitle = styled.h2`
@@ -22,7 +23,6 @@ export const CommitsTitle = styled.h2`
   padding-top: 50px;
   padding-bottom: 20px;
   text-align: center;
-  // color: #005b95;
   color: ${({ theme }) => theme.spaceText};
 `;
 

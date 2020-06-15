@@ -5,6 +5,6 @@ export const ResumeComponent = styled.section`
   border-bottom: none;
   padding-bottom: 50px;
   background-color: ${({ theme }) => theme.spaceBg};
-  // color: #2f4858;
   color: ${({ theme }) => theme.spaceText};
+  flex: 1;
 `;

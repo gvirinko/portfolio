@@ -13,29 +13,27 @@ body {
 }
 
 .App {
-  min-height: 100vh;
   /* will cover the 100% of viewport */
+  min-height: 100vh;
   overflow: hidden;
   display: block;
   position: relative;
-  padding-bottom: 20px;
   /* height of my footer */
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 /* * {
   box-sizing: border-box;
   border: 1px solid red;
 } */
-
-.dark-mode {
-  background-color: black;
-  border-bottom: 2px solid red;
-}
-
-.light-mode {
-  background-color: coral;
-  border-bottom: 10px solid green;
-}
 
 @font-face {
   src: url(./fonts/roboto-regular-webfont.woff) format("woff");
