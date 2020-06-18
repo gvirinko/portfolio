@@ -1,18 +1,21 @@
 import React from "react";
 import { ResumeComponent } from "./elements";
-
-// import { Document, Page, pdfjs } from "react-pdf";
-// pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+import MyResume from "../../images/Resume(Gnativ).pdf";
 
 export const Resume = () => {
   return (
     <ResumeComponent>
-      <div>
-        {/* <Document file="./Resume.pdf"> */}
-        {/* <Document file="https://web.stanford.edu/class/cs142/lectures/FrontEnd.pdf"> */}
-        {/* <Page /> */}
-        {/* </Document> */}
-      </div>
+      <iframe
+        title="resume"
+        src="https://drive.google.com/file/d/1OBV59Np-_ZC5mk2CU32b2cs-3YzjTp-o/preview"
+        width="640"
+        height="480"
+      />
+      <button>
+        <a href={MyResume} download>
+          Download My Resume
+        </a>
+      </button>
     </ResumeComponent>
   );
 };
