@@ -1,4 +1,4 @@
-# Restaurants Finder
+# My Portfolio
 
 This is my project for the React JS course at [ReDi School (Berlin)](https://www.redi-school.org/berlin).
 Deployed here: [My Portfolio](https://gvirinko.github.io/).
