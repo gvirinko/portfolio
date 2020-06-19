@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bc0546bf2290efd340051da289e2cd4d",
+    "revision": "c71cc864a2d77e11df30f367e45e7023",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "a96014fd83ccddec3ede",
+    "revision": "8e55801bb75f9a6c153f",
     "url": "/portfolio/static/css/main.f76f0480.chunk.css"
   },
   {
-    "revision": "4e13d89d2c666610fcf3",
-    "url": "/portfolio/static/js/2.59fd9572.chunk.js"
+    "revision": "903bf99d91ad70813116",
+    "url": "/portfolio/static/js/2.5026cdfb.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/portfolio/static/js/2.59fd9572.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.5026cdfb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a96014fd83ccddec3ede",
-    "url": "/portfolio/static/js/main.8e0e7361.chunk.js"
+    "revision": "8e55801bb75f9a6c153f",
+    "url": "/portfolio/static/js/main.f692473d.chunk.js"
   },
   {
     "revision": "f619aeccc94a0d089131",
@@ -54,6 +54,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "0e84d5926187e7a3b785febd3a55bf1d",
     "url": "/portfolio/static/media/glyph-logo_May2016.0e84d592.png"
+  },
+  {
+    "revision": "82ae125b1ba47a7834c91c21c56ec836",
+    "url": "/portfolio/static/media/logoRestaurants.82ae125b.png"
   },
   {
     "revision": "58bf8e0bd1dd213bf745e9d748caf175",
