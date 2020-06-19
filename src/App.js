@@ -29,7 +29,7 @@ const App = () => {
             <Switch>
               <Route
                 exact
-                path="/portfolio"
+                path="/"
                 render={(props) => (
                   <Projects {...props} content={projectsList} />
                 )}

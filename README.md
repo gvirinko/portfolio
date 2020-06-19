@@ -1,10 +1,11 @@
-# Restaurants Finder
+# My Portfolio
 
 This is my project for the React JS course at [ReDi School (Berlin)](https://www.redi-school.org/berlin).
-Deployed here: [My Portfolio](https://gvirinko.github.io/).
+Deployed here: [My Portfolio](https://gvirinko.github.io/portfolio).
 
 My Portfolio page currently has the following info: list of my projects, resume to download (in process), current level of front-end skills and latest commits, fetched from GitHub.
 Extra features: dark mode using Context API, conditional rendering of skills.
+Tech Stack: HTML, CSS (styled-components), React JS, Context API, GitHub API.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
