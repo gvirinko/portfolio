@@ -2,8 +2,7 @@ import React from "react";
 
 import {
   ProjectsComponent,
-  // ProjectHeader,
-  ProjectsWrapper,
+  ProjectWrapper,
   ProjectLogo,
   ProjectInfoWrapper,
   ProjectButton,
@@ -15,7 +14,7 @@ export const Projects = ({ content }) => {
   return (
     <ProjectsComponent>
       {content.map((project) => (
-        <ProjectsWrapper key={project.title}>
+        <ProjectWrapper key={project.title}>
           <ProjectLogo src={project.logo} alt="Logo" />
           <ProjectInfoWrapper>
             <ProjectButton onClick={() => window.open(project.github)}>
@@ -32,9 +31,13 @@ export const Projects = ({ content }) => {
           </ProjectInfoWrapper>
           <div>
             <ProjectTitle>{project.title}</ProjectTitle>
-            <ProjectDescription>{project.description}</ProjectDescription>
+            <ProjectDescription>
+              {project.description.map((item) => (
+                <p>{item}</p>
+              ))}
+            </ProjectDescription>
           </div>
-        </ProjectsWrapper>
+        </ProjectWrapper>
       ))}
     </ProjectsComponent>
   );
