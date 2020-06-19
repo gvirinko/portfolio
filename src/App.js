@@ -19,7 +19,7 @@ import { headerInfo, footerInfo, skillsList, projectsList } from "./content";
 const App = () => {
   const { isDarkModeOn } = React.useContext(DarkModeContext);
   return (
-    <Router>
+    <Router basename="/portfolio">
       <ThemeProvider theme={isDarkModeOn ? darkTheme : lightTheme}>
         <div className="App">
           <DarkModeToggle />
