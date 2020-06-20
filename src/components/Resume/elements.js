@@ -16,11 +16,17 @@ export const ResumeWrapper = styled.div`
   margin-left: 50px;
   margin-right: 50px;
   margin-top: 20px;
+  @media (min-width: 320px) and (max-width: 768px) {
+    margin-left: 10px;
+  }
 `;
 
 export const ResumeFrame = styled.iframe`
   width: 100%;
   height: 100vh;
+  @media (min-width: 320px) and (max-width: 768px) {
+    display: none;
+  }
 `;
 
 export const DownloadButton = styled.a`

@@ -21,12 +21,15 @@ export const SkillsTitle = styled.h3`
 `;
 
 export const SkillsWrapper = styled.div`
-  width: 40%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
   font-family: Roboto, Georgia, serif;
   font-weight: normal;
   font-size: 20px;
+  @media (min-width: 320px) and (max-width: 768px) {
+    width: 90%;
+  }
 `;
 
 export const Skill = styled.div`

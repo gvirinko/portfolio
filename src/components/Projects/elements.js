@@ -7,6 +7,10 @@ export const ProjectsComponent = styled.section`
   padding-bottom: 50px;
   background-color: ${({ theme }) => theme.spaceBg};
   color: ${({ theme }) => theme.spaceText};
+  @media (min-width: 320px) and (max-width: 768px) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 `;
 
 export const ProjectWrapper = styled.div`
@@ -17,6 +21,17 @@ export const ProjectWrapper = styled.div`
   margin-left: 200px;
   margin-right: 200px;
   margin-top: 0;
+  flex-wrap: no-wrap;
+  @media (min-width: 320px) and (max-width: 768px) {
+    flex-wrap: wrap;
+    margin-left: 30px;
+    margin-right: 10px;
+  }
+  @media (min-width: 768px) and (max-width: 1024px) {
+    // flex-wrap: wrap;
+    margin-left: 30px;
+    margin-right: 10px;
+  }
 `;
 
 export const ProjectLogo = styled.img`
@@ -27,13 +42,20 @@ export const ProjectLogo = styled.img`
   margin-right: 50px;
   border: 1px solid rgb(193, 202, 183);
   box-shadow: 2px 2px 2px rgb(226, 231, 218);
+  @media (min-width: 320px) and (max-width: 768px) {
+    width: 100px;
+    margin-right: 30px;
+  }
 `;
 
-export const ProjectInfoWrapper = styled.div`
+export const ProjectButtonsWrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   margin-right: 50px;
+  @media (min-width: 320px) and (max-width: 768px) {
+    margin-right: 10px;
+  }
 `;
 
 export const ProjectButton = styled.button`
@@ -51,6 +73,8 @@ export const ProjectButton = styled.button`
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  @media (min-width: 320px) and (max-width: 768px) {
+  }
 `;
 
 export const ProjectTitle = styled.h2`
