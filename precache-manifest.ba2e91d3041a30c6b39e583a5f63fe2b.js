@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c71cc864a2d77e11df30f367e45e7023",
+    "revision": "f874fec56020866388e2e7489de30271",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "8e55801bb75f9a6c153f",
+    "revision": "ed2d7aa223c251464cd3",
     "url": "/portfolio/static/css/main.f76f0480.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.5026cdfb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8e55801bb75f9a6c153f",
-    "url": "/portfolio/static/js/main.f692473d.chunk.js"
+    "revision": "ed2d7aa223c251464cd3",
+    "url": "/portfolio/static/js/main.4cdba368.chunk.js"
   },
   {
     "revision": "f619aeccc94a0d089131",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/NewsAnalyzer.55c1c3e3.png"
   },
   {
-    "revision": "8d5f233717b23342d736222474a436cd",
-    "url": "/portfolio/static/media/Resume(Gnativ).8d5f2337.pdf"
+    "revision": "33a104835560e4829ccf1008273ce3c2",
+    "url": "/portfolio/static/media/Resume(Gnativ).33a10483.pdf"
   },
   {
     "revision": "fcdd75bd8f10b249d6b4b8a1f76727b7",
