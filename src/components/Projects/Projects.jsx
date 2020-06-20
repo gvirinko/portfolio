@@ -4,7 +4,7 @@ import {
   ProjectsComponent,
   ProjectWrapper,
   ProjectLogo,
-  ProjectInfoWrapper,
+  ProjectButtonsWrapper,
   ProjectButton,
   ProjectTitle,
   ProjectDescription,
@@ -16,7 +16,7 @@ export const Projects = ({ content }) => {
       {content.map((project) => (
         <ProjectWrapper key={project.title}>
           <ProjectLogo src={project.logo} alt="Logo" />
-          <ProjectInfoWrapper>
+          <ProjectButtonsWrapper>
             <ProjectButton onClick={() => window.open(project.github)}>
               GitHub
             </ProjectButton>
@@ -28,12 +28,12 @@ export const Projects = ({ content }) => {
             ) : (
               ""
             )}
-          </ProjectInfoWrapper>
+          </ProjectButtonsWrapper>
           <div>
             <ProjectTitle>{project.title}</ProjectTitle>
             <ProjectDescription>
               {project.description.map((item) => (
-                <p>{item}</p>
+                <p key={item}>{item}</p>
               ))}
             </ProjectDescription>
           </div>

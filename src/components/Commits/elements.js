@@ -4,9 +4,13 @@ export const CommitsHeader = styled.span`
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr 5fr;
+  grid-column-gap: 40px;
   height: 40px;
   margin-left: 20px;
   font-weight: bold;
+  @media (min-width: 320px) and (max-width: 425px) {
+    display: none;
+  }
 `;
 
 export const CommitsComponent = styled.section`
@@ -30,8 +34,14 @@ export const Commit = styled.div`
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr 5fr;
+  grid-column-gap: 40px;
   height: 40px;
   margin-left: 20px;
+  @media (min-width: 320px) and (max-width: 425px) {
+    grid-template-columns: 1fr;
+    height: 80px;
+    margin-bottom: 40px;
+  }
 `;
 
 export const CommitDate = styled.div``;
