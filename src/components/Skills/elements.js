@@ -12,9 +12,13 @@ export const SkillsComponent = styled.section`
 export const SkillsTitle = styled.h3`
   margin-top: 0;
   margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 500px;
   font-family: "Roboto Slab", Georgia, serif;
   font-weight: normal;
   font-size: 24px;
+  border: 1px solid red;
 `;
 
 export const SkillsWrapper = styled.div`
