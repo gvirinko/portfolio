@@ -18,7 +18,6 @@ export const SkillsTitle = styled.h3`
   font-family: "Roboto Slab", Georgia, serif;
   font-weight: normal;
   font-size: 24px;
-  border: 1px solid red;
 `;
 
 export const SkillsWrapper = styled.div`
