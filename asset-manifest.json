@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.f76f0480.chunk.css",
-    "main.js": "/portfolio/static/js/main.2b9cc294.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.2b9cc294.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.7eb09d63.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7eb09d63.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.075c0788.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.075c0788.js.map",
-    "static/js/2.5026cdfb.chunk.js": "/portfolio/static/js/2.5026cdfb.chunk.js",
-    "static/js/2.5026cdfb.chunk.js.map": "/portfolio/static/js/2.5026cdfb.chunk.js.map",
+    "static/js/2.1d945a15.chunk.js": "/portfolio/static/js/2.1d945a15.chunk.js",
+    "static/js/2.1d945a15.chunk.js.map": "/portfolio/static/js/2.1d945a15.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.faa3a6dba7693824dd47213af42c2ade.js": "/portfolio/precache-manifest.faa3a6dba7693824dd47213af42c2ade.js",
+    "precache-manifest.cdffeef1420336f519671bf3a72a847a.js": "/portfolio/precache-manifest.cdffeef1420336f519671bf3a72a847a.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/main.f76f0480.chunk.css.map": "/portfolio/static/css/main.f76f0480.chunk.css.map",
-    "static/js/2.5026cdfb.chunk.js.LICENSE.txt": "/portfolio/static/js/2.5026cdfb.chunk.js.LICENSE.txt",
+    "static/js/2.1d945a15.chunk.js.LICENSE.txt": "/portfolio/static/js/2.1d945a15.chunk.js.LICENSE.txt",
     "static/media/BONUS.png": "/portfolio/static/media/BONUS.fed5f226.png",
     "static/media/IMG_6501.jpeg": "/portfolio/static/media/IMG_6501.1c582a00.jpeg",
     "static/media/LI-In-Bug.png": "/portfolio/static/media/LI-In-Bug.bb2cc5c7.png",
     "static/media/Mondrian.png": "/portfolio/static/media/Mondrian.134ffe98.png",
     "static/media/NewsAnalyzer.png": "/portfolio/static/media/NewsAnalyzer.55c1c3e3.png",
     "static/media/Resume(Gnativ).pdf": "/portfolio/static/media/Resume(Gnativ).33a10483.pdf",
+    "static/media/duck.jpg": "/portfolio/static/media/duck.9dae7bd8.jpg",
     "static/media/email-logo-png-1121.png": "/portfolio/static/media/email-logo-png-1121.fcdd75bd.png",
     "static/media/glyph-logo_May2016.png": "/portfolio/static/media/glyph-logo_May2016.0e84d592.png",
     "static/media/logoRestaurants.png": "/portfolio/static/media/logoRestaurants.82ae125b.png",
@@ -25,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.075c0788.js",
-    "static/js/2.5026cdfb.chunk.js",
+    "static/js/2.1d945a15.chunk.js",
     "static/css/main.f76f0480.chunk.css",
-    "static/js/main.2b9cc294.chunk.js"
+    "static/js/main.7eb09d63.chunk.js"
   ]
 }
