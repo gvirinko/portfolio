@@ -4,7 +4,9 @@ import { ThemeProvider } from "styled-components";
 
 import { lightTheme, darkTheme } from "./theme";
 import DarkModeToggle from "./components/DarkModeToggle";
+import DuckModeToggle from "./components/DuckModeToggle";
 import { DarkModeContext } from "./components/DarkModeContext/DarkModeContext";
+
 import Header from "./components/Header";
 import NavBar from "./components/NavBar";
 import Projects from "./components/Projects";
@@ -23,6 +25,7 @@ const App = () => {
       <ThemeProvider theme={isDarkModeOn ? darkTheme : lightTheme}>
         <div className="App">
           <DarkModeToggle />
+          <DuckModeToggle />
           <Header content={headerInfo} />
           <NavBar />
           <main>

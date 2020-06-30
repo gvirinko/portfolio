@@ -8,7 +8,6 @@ export const Toggle = styled.button`
     opacity: 0.7;
   }
   width: 90px;
-  margin-bottom: 5px;
   background-color: ${({ theme }) => theme.headerFooterText};
   color: ${({ theme }) => theme.headerFooterBg};
   font-family: Roboto, Georgia, serif;

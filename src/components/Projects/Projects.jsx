@@ -1,4 +1,5 @@
 import React from "react";
+import { DuckModeContext } from "../DuckModeContext/DuckModeContext";
 
 import {
   ProjectsComponent,
@@ -9,8 +10,13 @@ import {
   ProjectTitle,
   ProjectDescription,
 } from "./elements";
+import duck from "../../images/duck.jpg";
+import irynaGnativ from "../../images/IMG_6501.jpeg";
 
 export const Projects = ({ content }) => {
+  const { isDuckModeOn } = React.useContext(DuckModeContext);
+  isDuckModeOn ? (content[0].logo = duck) : (content[0].logo = irynaGnativ);
+
   return (
     <ProjectsComponent>
       {content.map((project) => (
