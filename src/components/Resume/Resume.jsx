@@ -13,7 +13,7 @@ export const Resume = () => {
       <ResumeWrapper>
         <ResumeFrame
           title="resume"
-          src="https://drive.google.com/file/d/194LwwhUPuxKjrW1_Ngr3oaUvrNc_H45C/preview"
+          src="https://drive.google.com/file/d/1KMlj2ex-5B00HHjrYLlCtAEjURMdCsxr/preview"
         />
         <DownloadButton href={MyResume} download>
           Download My Resume
