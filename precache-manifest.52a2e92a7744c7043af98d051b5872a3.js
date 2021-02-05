@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "42dcab3f01106a784c3db6536e53f5b7",
+    "revision": "04a99650f04c9915cbb1212dc79ff17f",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "c24af3ddf63e15d01866",
+    "revision": "eaf280cc38ba25c6c1cb",
     "url": "/portfolio/static/css/main.f76f0480.chunk.css"
   },
   {
-    "revision": "91d937d572032728c5c3",
-    "url": "/portfolio/static/js/2.1d945a15.chunk.js"
+    "revision": "9998c39950ebab9c61f6",
+    "url": "/portfolio/static/js/2.cf78b760.chunk.js"
   },
   {
-    "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/portfolio/static/js/2.1d945a15.chunk.js.LICENSE.txt"
+    "revision": "9b318b6fb13190fe82c0677e9264b3c7",
+    "url": "/portfolio/static/js/2.cf78b760.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c24af3ddf63e15d01866",
-    "url": "/portfolio/static/js/main.7eb09d63.chunk.js"
+    "revision": "eaf280cc38ba25c6c1cb",
+    "url": "/portfolio/static/js/main.95eae9a7.chunk.js"
   },
   {
     "revision": "f619aeccc94a0d089131",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/NewsAnalyzer.55c1c3e3.png"
   },
   {
-    "revision": "33a104835560e4829ccf1008273ce3c2",
-    "url": "/portfolio/static/media/Resume(Gnativ).33a10483.pdf"
+    "revision": "311af1054947e2d52cbb095ac1fb9aba",
+    "url": "/portfolio/static/media/Resume(Gnativ).311af105.pdf"
   },
   {
     "revision": "9dae7bd8932374c28354d90dcf6c39d7",
