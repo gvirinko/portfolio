@@ -6,7 +6,7 @@ import logoRestaurants from "./images/logoRestaurants.png";
 
 export const headerInfo = {
   name: "Iryna Gnativ",
-  status: "Learning to Code",
+  status: "Coding...",
 };
 
 export const footerInfo = {
@@ -24,19 +24,27 @@ export const skillsList = [
   },
   {
     label: "JavaScript",
-    level: 5,
+    level: 6,
   },
   {
     label: "ReactJS",
-    level: 5,
+    level: 6,
   },
   {
     label: "Redux",
-    level: 2,
+    level: 4,
   },
   {
     label: "Python",
-    level: 1,
+    level: 2,
+  },
+  {
+    label: "SQL",
+    level: 2,
+  },
+  {
+    label: "GraphQL",
+    level: 2,
   },
   {
     label: "ProcrastinateJS",
@@ -52,7 +60,7 @@ export const projectsList = [
     github: "https://github.com/gvirinko/portfolio",
     description: [
       "The page shows my current state of web-development progress.",
-      "Tech Stack: HTML, CSS (styled-components), React JS, GIT.",
+      "Tech Stack: HTML, CSS (styled-components), React JS, Python, SQL GIT.",
       "Features: Dark Mode with Context API, fetching data from GitHub API, conditional rendering of skills.",
     ],
   },
